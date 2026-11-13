@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=curl-proxy">
+  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=curl-proxy">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-dark.png">
       <img src="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-light.png" alt="Fusion Proxy" height="52">
@@ -101,7 +101,7 @@ curl -x http://resi.fusionproxy.net:12286 -U "USERNAME-country-us:PASSWORD" http
 curl -x http://resi.fusionproxy.net:12286 -U "USERNAME-country-de-sessid-4821937-sessTime-600s:PASSWORD" https://ipinfo.io/ip
 ```
 
-The username format is explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=curl-proxy).
+The username format is explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=referral&utm_campaign=curl-proxy).
 
 ## 8. Measure how fast a proxy is
 
@@ -113,7 +113,7 @@ curl -s -o /dev/null -x http://resi.fusionproxy.net:12286 -U "USERNAME:PASSWORD"
 
 `time_connect` is your connection to the proxy; the jump to `time_appconnect` is the proxy reaching the website plus the TLS handshake. Run it a few times: one request says little about a rotating pool.
 
-To check many proxies at once, use [proxy-checker](https://github.com/FusionProxies/proxy-checker) or the [online proxy checker](https://fusionproxy.net/tools/proxy-checker?utm_source=github&utm_medium=curl-proxy).
+To check many proxies at once, use [proxy-checker](https://github.com/FusionProxies/proxy-checker) or the [online proxy checker](https://fusionproxy.net/tools/proxy-checker?utm_source=github&utm_medium=referral&utm_campaign=curl-proxy).
 
 ## 9. Errors and fixes
 
@@ -136,7 +136,7 @@ export FUSION_PASS="your_password"
 bash examples.sh
 ```
 
-No proxy yet? [Fusion Proxy residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=curl-proxy) start at $2.95/GB, with a [free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=curl-proxy).
+No proxy yet? [Fusion Proxy residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=referral&utm_campaign=curl-proxy) start at $2.95/GB, with a [free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=referral&utm_campaign=curl-proxy).
 
 ## Related
 
